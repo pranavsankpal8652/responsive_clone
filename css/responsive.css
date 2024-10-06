@@ -1,0 +1,1100 @@
+@media only screen and (min-width:320px) and (max-width:556px)
+{
+    .header{
+        flex-direction: column;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .home_content_inner{
+        flex-direction: column;
+    }
+    .home_content_inner .course_info{
+        padding: 20px 5px;
+    }
+    .home_content_inner .course_info .title{
+        padding-right: 0px;
+    }
+    .home_content_inner .course_info .title h1{
+       line-height: 50px;
+        font-size: 30px;
+        
+    }
+    .home_content_inner .course_info .info{
+        margin: 10px 0px;  
+       
+    }
+    .home_content_inner .course_info .info p{
+        padding-right: 20px;
+        font-size: 18px;
+    }
+    .home_content_inner .course_info>ul>li{
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .home_content_inner .course_info>ul>li>i{
+        font-size: 15px;
+    }
+    .home_content_inner .course_info .book_download{
+        flex-direction:column;
+        align-items: center;
+        margin: 20px 0px 30px 0px;
+    }
+    .course_info .book_download button{
+        padding: 15px 35px;
+        line-height: 10px;
+        font-size: 15px;
+    }
+    .home_content_inner .course_info .book_download .dw_curri{
+        padding: 8px 16px;
+        line-height: 10px;
+        font-size: 15px;
+    }
+    .home_content_inner .register_form_outer .bg_cicle{
+        max-width: 100%;
+        height: 400px;
+        box-sizing: border-box;
+    }
+    .register_form_outer .registration_form{
+        top: 15px;
+        left: 5%;
+        max-width: 90%;
+        box-shadow: 0px 0px 10px 2px #ccc;
+    }
+    .register_form_outer .registration_form h2{
+        margin-bottom: 5px;
+    }
+    .registration_form form input{
+        padding: 5px 2px;
+    }
+    .register_form_outer .registration_form label{
+        margin-bottom: 5px;
+    }
+    .registration_form form>div{
+        padding: 10px;
+    }
+    .home_content .program_info{
+        margin-top: 420px;
+       margin-left: 6%;
+       gap: 30px;
+       flex-wrap: wrap;
+    }
+    .home_content .program_info>div{
+        flex-basis: 40%;
+    }
+    .home_content .program_info>div>h4{
+        font-size: 25px;
+    }
+    .home_content .program_info>div>p{
+        font-size: 15px;
+    }
+    .key_highlights_outer .key_highlights_inner{
+        margin-top: 0px;
+        padding: 10px 10px;
+    }
+    .key_highlights_outer .key_highlights_inner>h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .key_highlights_outer .key_highlights_inner>p{
+        font-size: 15px;
+    }
+
+    .key_highlights{
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 25px;
+    }
+    .key_highlights>div>img{
+        width: 50px;
+    }
+    .key_highlights>div>.highlight_content>h4{
+        font-size: 17px;
+    }
+    .key_highlights>div>.highlight_content>p{
+        font-size: 16px;
+    }
+    .key_highlights_inner .book_free button{
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+    .career_options_inner{
+        padding: 0px 10px;
+    }
+    .career_options{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .career_options>div{
+        padding: 20px;
+    }
+    .career_options_inner>h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .career_options_inner>p{
+        font-size: 15px;
+      
+    }
+    .career_options>div img{
+        max-width: 10%;
+    }
+    .career_options>div>.image::after{
+        content: '';
+        background: white;
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 0px 5px 2px #CCC;
+        /* border: 1px solid red; */
+        position: absolute;
+       
+    }
+    .career_options>div>h4{
+        margin-top: 55px;
+    }
+    .career_options>div:nth-child(4)>.image>img{
+        top: 1vh;
+        left: 1%;
+    }
+    .get_certified_outer .get_certified_inner{
+        flex-direction: column;
+        padding:20px; 
+        gap: 60px;
+    }
+    .get_certified_content>.content_inner{
+        padding: 10px;
+    }
+    .get_certified_content>div h5{
+        font-size: 18px;
+    }
+    .get_certified_content>div p{
+        font-size: 15px;
+    }
+    .get_certified_content .headings p{
+        font-size:17px !important;
+    }
+    .get_certified_content .content_btn{
+        text-align: center;
+    }
+    .get_certified_content .content_btn button{
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+    .get_certified_inner .certificate{
+        margin-left: 20px;
+        background-size: 35% 35%,40% 40%;
+        background-position: top left,85% 100%;
+    }
+    .get_certified_inner .certificate img{
+        padding: 8px 20px;
+        width: 75%;
+      }
+      .curriculum_inner{
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .curriculum_inner>.nav_bar>ul>.mobile-hidden{
+        display: none;
+      }
+      .curriculum_inner>.nav_bar>ul>.responsive_menu{
+        position: relative;
+        display:block;
+      }
+      .curriculum_inner>.nav_bar .responsive_menu>.submenu{
+        min-width: 150px;
+        background: white;
+        padding: 10px;
+        position: absolute;
+        top: 25px;
+        right: 6px;
+        /* border: 1px solid rebeccapurple; */
+       transform: scale(0);
+       transform-origin: top right;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 2px 1px #ccc;
+        transition: 1s;
+      }
+      @media(hover:hover) {
+        .curriculum_inner>.nav_bar>ul>.responsive_menu:hover{
+            transform: scale(1);
+      }
+      }
+      .curriculum_inner>.nav_bar .responsive_menu>.submenu>ul>li{
+        font-size: 15px;
+        cursor: pointer;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+      .curriculum_inner>.headings>h3{
+        font-size: 30px;
+        line-height: 35px;
+      }
+      .curriculum_inner>.headings>p{
+        font-size: 17px;
+        text-align: center;
+      }
+      .curriculum_inner .content{
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+      }
+      .curriculum_inner .content>div>i{
+        font-size: 20px;
+      }
+      .curriculum_inner .content>div>h4{
+        font-size: 19px;
+      }
+      .curriculum_inner .dw_curri_button{
+        margin-top: 10px;
+      }
+      .curriculum_inner .dw_curri_button button{
+        padding: 12px 40px;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .why_learn_inner{
+        padding: 20px;
+      }
+      .why_learn_inner>h4{
+        font-size: 28px;
+      }
+      .why_learn_inner>p{
+        font-size: 17px;
+      }
+      .why_learn_content{
+        flex-direction: column;
+      }
+      .why_learn_content>div{
+        padding: 17px;
+        box-sizing: border-box;
+        flex-basis: 100%;
+      }
+      .why_learn_content>div>img{
+        width: 17%;
+
+      }
+      .why_learn_content>div>h5{
+        font-size: 18px;
+
+      }
+      .why_learn_content>div>p{
+        font-size: 16px;
+
+      }
+      .why_learn_btn button{
+        padding: 12px 40px;
+        font-size: 16px;
+      }
+      .student_says_content{
+        flex-direction: column;
+      }
+      .student_says_inner{
+        padding: 20px;
+      }
+      .student_says_inner>h3{
+        font-size: 28px;
+        line-height: 40px;
+      }
+      .student_says_inner>p{
+        margin-bottom: 35px;
+        font-size: 17px;
+      }
+      .student_says_content>.content_inner{
+        padding: 15px 20px;
+      }
+      .student_says_content>.content_inner img{
+        width: 22%;
+      }
+      .student_says_content>.content_inner>div h4{
+        font-size: 17px;
+      }
+      .student_says_content>.content_inner>div>div>p{
+        font-size: 14px;
+      }
+      .student_says_content>.content_inner>p{
+        font-size: 15px;
+        word-spacing: normal;
+        line-height: 25px;
+      }
+      .are_you_ready_inner{
+        margin: 60px auto;
+        padding: 0px 2px;
+      }
+      .are_you_ready_content{
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+      }
+      .are_you_ready_content>.images{
+        width: 100%;
+      }
+      .are_you_ready_content>.images>img{
+        width: 70%;
+        transform: rotate(90deg);
+      }
+      .are_you_ready_content>.images:first-child>img{
+        margin-top: -14%;
+      }
+      .are_you_ready_content>.images:last-child>img{
+        margin-bottom: -14%;
+      }
+
+      .are_you_ready_inner h3{
+        font-size: 30px;
+        line-height: 40px;
+      }
+      .are_you_ready_inner p{
+        font-size: 17px;
+        line-height: 30px;
+        font-weight: normal;
+        padding: 0px 20px;
+      }
+      .are_you_ready_inner button{
+        padding: 12px 40px;
+        font-size: 16px;
+      }
+      .are_you_ready_content>div:last-child{
+        align-self: center;
+      }
+      .faqs_inner{
+        padding: 60px 10px;
+      }
+      .faqs_inner>h3{
+        font-size: 27px;
+        line-height: 36px;
+      }
+      .faqs_inner>p{
+        font-size: 17px;
+      }
+      .faqs_inner .whats_Web_dev{
+        padding: 10px;
+      }
+      .faqs_inner .whats_Web_dev h5{
+        font-size: 17px;
+      }
+      .faqs_inner .whats_Web_dev i{
+        font-size: 15px;
+      }
+      .faqs_inner .whats_Web_dev p{
+        font-size: 14px;
+        word-spacing: normal;
+      }
+      .faqs_inner .whats_Web_dev_2{
+        padding: 10px;
+      }
+      .faqs_inner .whats_Web_dev_2 h5{
+        font-size: 16.5px;
+      }
+      .faqs_inner .whats_Web_dev_2 i{
+        font-size: 15px;
+      }
+      .faqs_content .faqs_btn button{
+        padding: 12px 40px;
+        font-size: 16px;
+      }
+      .top_companies_inner{
+        margin:40px auto;
+        padding: 0px 10px;
+      }
+      .top_companies_inner>h4{
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 20px;
+      }
+      .footer{
+        padding: 20px 0px 10px 0px;
+      }
+      .footer img{
+        width: 35%;
+      }
+      .footer p{
+      font-size: 13px;
+      padding: 0px 20px;
+      }
+      .footer h6{
+      font-size: 13px;
+      }
+
+
+
+    
+}
+@media only screen and (min-width:557px) and (max-width:1023px) 
+{
+    .header{
+        padding: 0px 30px;
+        justify-content: space-between;
+    }
+    .home_content_inner{
+        gap: 30px;
+    }
+    .home_content_inner .course_info{
+        width: 400px;
+        padding: 20px 5px;
+    }
+    .home_content_inner .course_info .title{
+        width: 500px;
+    }
+    .home_content_inner .course_info .title h1{
+       line-height: 50px;
+        font-size: 35px;
+        
+    }
+    .home_content_inner .course_info .info{
+        width: 300px;
+        margin: 10px 0px;  
+       
+    }
+    .home_content_inner .course_info .info p{
+        padding-right: 40px;
+        font-size: 18px;
+    }
+    .home_content_inner .course_info>ul>li{
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .home_content_inner .course_info>ul>li>i{
+        font-size: 15px;
+    }
+    .home_content_inner .course_info .book_download{
+       
+        margin: 20px 0px 30px 0px;
+    }
+    .course_info .book_download button{
+        padding: 15px 20px;
+        line-height: 10px;
+        font-size: 15px;
+    }
+    .home_content_inner .course_info .book_download .dw_curri{
+        padding: 8px 16px;
+        line-height: 10px;
+        font-size: 15px;
+    }
+    .home_content_inner .register_form_outer .bg_cicle{
+        max-width: 300px;
+        height: 400px;
+        box-sizing: border-box;
+    }
+    .register_form_outer .registration_form{
+        top: 20px;
+        left: 15px;
+        width: 270px;
+        box-shadow: 0px 0px 10px 2px #ccc;
+    }
+    .register_form_outer .registration_form h2{
+        margin-bottom: 5px;
+    }
+    .registration_form form input{
+        padding: 5px 2px;
+    }
+    .register_form_outer .registration_form label{
+        margin-bottom: 5px;
+    }
+    .registration_form form>div{
+        padding: 10px;
+    }
+    .home_content .program_info_outer{
+        margin:20px 0px 50px 0px;
+    }
+    .home_content .program_info{
+        justify-content: center;
+        margin: 0px auto;
+        gap: 10px;
+        padding: 0px 50px;
+    }
+    .home_content .program_info>div>h4{
+        font-size: 22px;
+    }
+    .home_content .program_info>div>p{
+        font-size: 14px;
+    }
+    .key_highlights_outer .key_highlights_inner{
+        margin-top: 0px;
+        padding: 10px 10px;
+    }
+    .key_highlights_outer .key_highlights_inner>h2{
+        font-size: 30px;
+        font-weight: bolder;
+        padding: 0px 10px;
+    }
+    .key_highlights_outer .key_highlights_inner>p{
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+
+    .key_highlights{
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-top: 25px;
+    }
+    .key_highlights>div>img{
+        width: 65px;
+    }
+    .key_highlights>div>.highlight_content>h4{
+        font-size: 17px;
+    }
+    .key_highlights>div>.highlight_content>p{
+        font-size: 16px;
+    }
+    .key_highlights_inner .book_free button{
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+    .key_highlights>div{
+        flex-basis: 45%;
+    }
+    .career_options_inner{
+        padding: 0px 10px;
+    }
+    .career_options{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .career_options>div{
+        flex-basis: 45%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .career_options>div img{
+        max-width: 10%;
+    }
+    .career_options>div>.image::after{
+        content: '';
+        background: white;
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 0px 5px 2px #CCC;
+        /* border: 1px solid red; */
+        position: absolute;
+       
+    }
+    .career_options>div>h4{
+        margin-top: 55px;
+    }
+    .career_options>div:nth-child(4)>.image>img{
+        top: 4px;
+        left: 4px;
+    }
+    .get_certified_outer .get_certified_inner{
+        padding:20px; 
+        gap: 60px;
+    }
+    .get_certified_content>.content_inner{
+        padding: 10px;
+    }
+   
+    .get_certified_content>div h5{
+        font-size: 18px;
+    }
+    .get_certified_content>div p{
+        font-size: 15px;
+    }
+    .get_certified_content .headings p{
+        font-size:17px !important;
+    }
+    .get_certified_content .content_btn button{
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+    .get_certified_content>div>.image{
+        width:50px;
+        padding: 5px;
+    }
+    .get_certified_outer .get_certified_inner{
+        justify-content: center;
+        gap: 20px;
+    }
+    .get_certified_inner .certificate{
+        align-self: center;
+        margin-left: 20px;
+        background-size: 35% 25%,40% 30%;
+        background-position: 5% 1%,95% 100%;
+    }
+    .get_certified_inner .certificate img{
+        /* padding: 8px 20px; */
+        width: 80%;
+      }
+      .curriculum_inner{
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .curriculum_inner>.nav_bar>ul>.mobile-hidden{
+        display: none;
+      }
+      .curriculum_inner>.nav_bar>ul>li:first-child{
+        margin:0px 20px;
+      }
+      .curriculum_inner>.nav_bar>ul>.responsive_menu{
+        padding: 0px 20px;
+        position: relative;
+        display:block;
+      }
+      .curriculum_inner>.nav_bar .responsive_menu>.submenu{
+        min-width: 150px;
+        background: white;
+        padding: 10px;
+        position: absolute;
+        top: 25px;
+        right: 30px;
+        /* border: 1px solid rebeccapurple; */
+       transform: scale(0);
+       transform-origin: top right;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 2px 1px #ccc;
+        transition: 1s;
+      }
+      @media(hover:hover) {
+        .curriculum_inner>.nav_bar>ul>.responsive_menu:hover{
+            transform: scale(1);
+      }
+      }
+      .curriculum_inner>.nav_bar .responsive_menu>.submenu>ul>li{
+        font-size: 17px;
+        cursor: pointer;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+      .curriculum_inner>.headings>h3{
+        font-size: 35px;
+        line-height: 40px;
+      }
+      .curriculum_inner>.headings>p{
+        font-size: 17px;
+        text-align: center;
+      }
+      .curriculum_inner .content{
+            justify-content: space-between;
+            align-items: center;
+      }
+      .curriculum_inner .content>div>i{
+        font-size: 20px;
+      }
+      .curriculum_inner .content>div>h4{
+        font-size: 20px;
+      }
+      .curriculum_inner .dw_curri_button{
+        margin-top: 5px;
+      }
+      .curriculum_inner .dw_curri_button button{
+        padding: 12px 40px;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .why_learn_inner{
+        padding: 20px;
+      }
+      .why_learn_inner>h4{
+        font-size: 30px;
+      }
+      .why_learn_inner>p{
+        font-size: 18px;
+      }
+      .why_learn_content{
+        justify-content: space-between;
+      }
+      .why_learn_content>div{
+        padding: 15px;
+        box-sizing: border-box;
+        flex-basis: 47%;
+      }
+      .why_learn_content>div>img{
+        width: 17%;
+
+      }
+      .why_learn_content>div>h5{
+        font-size: 19px;
+
+      }
+      .why_learn_content>div>p{
+        font-size: 17px;
+
+      }
+      .why_learn_btn button{
+        padding: 12px 40px;
+        font-size: 17px;
+      }
+      .student_says_inner{
+        padding: 20px;
+      }
+      .student_says_inner>h3{
+        font-size: 33px;
+        line-height: 40px;
+      }
+      .student_says_inner>p{
+        font-size: 19px;
+      }
+      .student_says_content>.content_inner{
+        padding: 15px 20px;
+      }
+      .student_says_content>.content_inner img{
+        width: 22%;
+      }
+      .student_says_content>.content_inner>div h4{
+        font-size: 17px;
+      }
+      .student_says_content>.content_inner>div>div>p{
+        font-size: 14px;
+      }
+      .student_says_content>.content_inner>p{
+        font-size: 17px;
+        word-spacing: normal;
+        line-height: 25px;
+      }
+      .are_you_ready_inner{
+        margin: 60px auto;
+        padding: 0px 10px;
+      }
+      .are_you_ready_content{
+        justify-content:center;
+        align-items: center;
+        padding: 40px;
+        box-sizing: border-box;
+      }
+      .are_you_ready_content>.images{
+       display: none;
+      }
+
+      .are_you_ready_inner h3{
+        font-size: 32px;
+        line-height: 40px;
+      }
+      .are_you_ready_inner p{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: normal;
+        padding: 0px 20px;
+      }
+      .are_you_ready_inner button{
+        padding: 12px 40px;
+        font-size: 17px;
+      }
+      .are_you_ready_content>div:last-child{
+        align-self: center;
+      }
+      .faqs_inner{
+        padding: 60px 20px;
+      }
+      .faqs_inner>h3{
+        font-size: 31px;
+        line-height: 36px;
+      }
+      .faqs_inner>p{
+        font-size: 18px;
+      }
+      .faqs_inner .whats_Web_dev{
+        padding: 12px;
+      }
+      .faqs_inner .whats_Web_dev_2{
+        padding: 12px;
+      }
+      .faqs_content .faqs_btn button{
+        padding: 12px 40px;
+        font-size: 17px;
+      }
+      .top_companies_inner{
+        margin:40px auto;
+        padding: 0px 10px;
+      }
+      .top_companies_inner>h4{
+        font-size: 27px;
+        line-height: 33px;
+        margin-bottom: 20px;
+      }
+      .footer img{
+        width: 21%;
+      }
+      .footer p{
+        font-size: 16px;
+        padding: 0px 20px;
+      }
+      .footer h6{
+       font-size: 15px;
+      }
+
+
+}
+@media  only screen and (min-width:1024px) and (max-width:1440px)
+{
+    .header{
+        padding: 0px 30px;
+        justify-content: space-between;
+    }
+    .home_content_inner .course_info{
+        padding: 20px 30px;
+    }
+    .home_content_inner .course_info .title h1{
+       line-height: 50px;
+        font-size: 40px;
+        
+    }
+    .home_content_inner .course_info .info{
+        margin: 10px 0px;  
+       
+    }
+    .home_content_inner .course_info .info p{
+        padding-right: 40px;
+        font-size: 20px;
+    }
+    .home_content_inner .course_info>ul>li{
+        font-size: 19px;
+        line-height: 40px;
+    }
+    .home_content_inner .course_info>ul>li>i{
+        font-size: 15px;
+    }
+    .home_content_inner .course_info .book_download{
+       
+        margin: 20px 0px 30px 0px;
+    }
+    .course_info .book_download button{
+        padding: 15px 35px;
+        line-height: 10px;
+        font-size: 15px;
+    }
+    .home_content_inner .course_info .book_download .dw_curri{
+        padding: 8px 16px;
+        line-height: 10px;
+        font-size: 15px;
+    }
+    .home_content_inner .register_form_outer .bg_cicle{
+        max-width: 300px;
+        height: 400px;
+        box-sizing: border-box;
+    }
+    .register_form_outer .registration_form{
+        top: 20px;
+        left: 15px;
+        width: 270px;
+        box-shadow: 0px 0px 10px 2px #ccc;
+    }
+    .register_form_outer .registration_form h2{
+        margin-bottom: 5px;
+    }
+    .registration_form form input{
+        padding: 5px 2px;
+    }
+    .register_form_outer .registration_form label{
+        margin-bottom: 5px;
+    }
+    .registration_form form>div{
+        padding: 10px;
+    }
+    .home_content .program_info{
+        margin: 30px 70px;
+        gap: 50px;
+    }
+    .home_content .program_info>div>h4{
+        font-size: 25px;
+    }
+    .home_content .program_info>div>p{
+        font-size: 17px;
+    }
+    .key_highlights_outer .key_highlights_inner{
+        margin-top: 0px;
+        padding: 10px 10px;
+    }
+    .key_highlights_outer .key_highlights_inner>h2{
+        font-size: 30px;
+        font-weight: bolder;
+        padding: 0px 10px;
+    }
+    .key_highlights_outer .key_highlights_inner>p{
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+
+    .key_highlights{
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-top: 25px;
+    }
+    .key_highlights>div{
+        flex-basis: 30%;
+    }
+    .key_highlights>div>.highlight_content>h4{
+        font-size: 18px;
+    }
+    .key_highlights>div>.highlight_content>p{
+        font-size: 16px;
+    }
+    .career_options_inner{
+        padding: 0px 10px;
+    }
+    .career_options{
+        gap: 20px;
+    }
+    .career_options>div{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .get_certified_outer .get_certified_inner{
+        padding:20px; 
+        gap: 60px;
+    }
+    .get_certified_content>.content_inner{
+        padding: 10px;
+    }
+   
+    .get_certified_content>div h5{
+        font-size: 19px;
+    }
+    .get_certified_content>div p{
+        font-size: 16px;
+    }
+    .get_certified_content .headings p{
+        font-size:17px !important;
+    }
+    .get_certified_content .content_btn button{
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+    .get_certified_content>div>.image{
+        width:50px;
+        padding: 5px;
+    }
+    .get_certified_outer .get_certified_inner{
+        justify-content: center;
+        gap: 20px;
+    }
+    .get_certified_inner .certificate{
+        align-self: center;
+        margin-left: 20px;
+        background-size: 35% 25%,40% 30%;
+        background-position: 1% 1%,95% 100%;
+    }
+    .get_certified_inner .certificate img{
+        /* padding: 8px 20px; */
+        width: 80%;
+      }
+      .curriculum_inner>.nav_bar>ul{
+        margin: 0px 20px;
+      }
+      .curriculum_inner .dw_curri_button{
+        margin-top: 0px;
+      }
+      .curriculum_inner .dw_curri_button button{
+        padding: 12px 40px;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .curriculum_inner .content>div>i{
+        font-size: 23px;
+      }
+      .curriculum_inner .content>div>h4{
+        font-size: 22px;
+      }
+      .why_learn_inner{
+        padding: 20px;
+      }
+      .why_learn_inner>h4{
+        font-size: 32px;
+      }
+      .why_learn_inner>p{
+        font-size: 19px;
+      }
+      .why_learn_content{
+        justify-content: space-around;
+      }
+      .why_learn_content>div{
+        padding: 15px;
+        box-sizing: border-box;
+        flex-basis: 47%;
+      }
+      .why_learn_content>div>img{
+        width: 15%;
+
+      }
+      .why_learn_content>div>h5{
+        font-size: 21px;
+
+      }
+      .why_learn_content>div>p{
+        font-size: 18px;
+
+      }
+      .why_learn_btn button{
+        padding: 12px 40px;
+        font-size: 19px;
+      }
+      .student_says_inner{
+        padding: 20px;
+      }
+      .student_says_inner>h3{
+        font-size: 35px;
+        line-height: 40px;
+      }
+      .student_says_inner>p{
+        font-size: 19px;
+      }
+      .student_says_content>.content_inner{
+        padding: 15px 20px;
+      }
+      .student_says_content>.content_inner img{
+        width: 20%;
+      }
+      .student_says_content>.content_inner>div h4{
+        font-size: 19px;
+      }
+      .student_says_content>.content_inner>div>div>p{
+        font-size: 15px;
+      }
+      .student_says_content>.content_inner>p{
+        font-size: 17px;
+        word-spacing: normal;
+        line-height: 25px;
+      }
+      .are_you_ready_inner{
+        padding: 0px 14px;
+        box-sizing: border-box;
+        margin: 100px 0px;
+      }
+      .are_you_ready_inner h3{
+        font-size: 34px;
+        line-height: 40px;
+      }
+      .are_you_ready_inner p{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: normal;
+        padding: 0px 30px;
+        word-spacing: 6px;
+      }
+      .are_you_ready_inner button{
+        padding: 12px 40px;
+        font-size: 19px;
+      }
+      .faqs_inner .whats_Web_dev{
+        padding: 15px;
+      }
+      .faqs_inner .whats_Web_dev_2{
+        padding: 15px;
+      }
+      .faqs_inner{
+        padding: 60px 0px;
+      }
+      .faqs_inner>h3{
+        font-size: 35px;
+        line-height: 36px;
+      }
+      .faqs_inner>p{
+        font-size: 19px;
+      }
+      .faqs_content .faqs_btn button{
+        padding: 12px 40px;
+        font-size: 19px;
+      }
+      .top_companies_inner{
+        margin:40px auto;
+        padding: 0px 10px;
+      }
+      .top_companies_inner>h4{
+        font-size: 32px;
+        line-height: 33px;
+        margin-bottom: 30px;
+      }
+
+    
+}
