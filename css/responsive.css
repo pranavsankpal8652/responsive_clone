@@ -215,11 +215,11 @@
         box-shadow: 0px 0px 2px 1px #ccc;
         transition: 1s;
       }
-      @media(hover:hover) {
-        .curriculum_inner>.nav_bar>ul>.responsive_menu:hover{
+     
+      .curriculum_inner>.nav_bar>ul>.responsive_menu:hover .submenu{
             transform: scale(1);
       }
-      }
+      
       .curriculum_inner>.nav_bar .responsive_menu>.submenu>ul>li{
         font-size: 15px;
         cursor: pointer;
